@@ -12,6 +12,8 @@
 		4922E86D2A02002C00836A6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4922E86C2A02002C00836A6B /* Assets.xcassets */; };
 		4922E8702A02002C00836A6B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4922E86F2A02002C00836A6B /* Preview Assets.xcassets */; };
 		4922E8792A02024400836A6B /* RecommendMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4922E8782A02024400836A6B /* RecommendMenuView.swift */; };
+		4983F60F2A089923002A7D15 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4983F60E2A089923002A7D15 /* HomeView.swift */; };
+		4983F6132A089A15002A7D15 /* StatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4983F6122A089A15002A7D15 /* StatusView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		4922E86C2A02002C00836A6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4922E86F2A02002C00836A6B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4922E8782A02024400836A6B /* RecommendMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendMenuView.swift; sourceTree = "<group>"; };
+		4983F60E2A089923002A7D15 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		4983F6122A089A15002A7D15 /* StatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 				4922E8782A02024400836A6B /* RecommendMenuView.swift */,
 				4922E86C2A02002C00836A6B /* Assets.xcassets */,
 				4922E86E2A02002C00836A6B /* Preview Content */,
+				4983F60E2A089923002A7D15 /* HomeView.swift */,
+				4983F6122A089A15002A7D15 /* StatusView.swift */,
 			);
 			path = StarBucksSwiftUI;
 			sourceTree = "<group>";
@@ -141,8 +147,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4922E8792A02024400836A6B /* RecommendMenuView.swift in Sources */,
+				4983F60F2A089923002A7D15 /* HomeView.swift in Sources */,
 				4922E86B2A02002A00836A6B /* ContentView.swift in Sources */,
 				4922E8692A02002A00836A6B /* StarBucksSwiftUIApp.swift in Sources */,
+				4983F6132A089A15002A7D15 /* StatusView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

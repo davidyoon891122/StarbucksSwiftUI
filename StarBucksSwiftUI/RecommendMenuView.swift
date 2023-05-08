@@ -18,19 +18,23 @@ struct RecommendMenuView: View {
             ScrollView(.horizontal) {
                 LazyHStack {
                     ForEach(1..<11) { _ in
-                        Image("Latte")
-                            .resizable()
-                            .frame(width: 110, height: 110)
-                            .clipShape(Circle())
-                            .overlay(Circle().stroke())
-                            
+                        VStack {
+                            Image("Latte")
+                                .resizable()
+                                .frame(width: 110, height: 110)
+                                .clipShape(Circle())
+                                .overlay(Circle().stroke())
+                            Text("아이스 카페 라떼")
+                                .font(.footnote)
+                                .bold()
+                        }
                     }
                 }
                 .padding(16)
             }
             Spacer()
         }
-        .frame(height: 200)
+        .frame(height: 220)
     }
 }
 
