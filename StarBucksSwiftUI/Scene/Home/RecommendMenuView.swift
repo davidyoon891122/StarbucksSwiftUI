@@ -29,9 +29,11 @@ struct RecommendMenuView: View {
                                 .bold()
                         }
                     }
+                    .padding(.horizontal, 8)
                 }
                 .padding(16)
             }
+            .scrollIndicators(.hidden)
             Spacer()
         }
         .frame(height: 220)

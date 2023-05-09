@@ -9,12 +9,17 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        VStack {
+        ScrollView {
             VStack {
-                StatusView()
-                StatusBarView()
+                VStack {
+                    StatusView()
+                    StatusBarView()
+                }
+                RecommendMenuView()
+                BannerView(imageName: "gift_banner")
+                BannerView(imageName: "gift_banner2")
+                MainEventView()
             }
-            RecommendMenuView()
         }
     }
 }

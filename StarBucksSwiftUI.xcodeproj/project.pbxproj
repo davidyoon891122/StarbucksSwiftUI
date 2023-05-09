@@ -14,6 +14,8 @@
 		4922E8792A02024400836A6B /* RecommendMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4922E8782A02024400836A6B /* RecommendMenuView.swift */; };
 		4983F60F2A089923002A7D15 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4983F60E2A089923002A7D15 /* HomeView.swift */; };
 		4983F6132A089A15002A7D15 /* StatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4983F6122A089A15002A7D15 /* StatusView.swift */; };
+		49E39B362A0B022D0003F278 /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E39B352A0B022D0003F278 /* BannerView.swift */; };
+		49E39B382A0B04430003F278 /* MainEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E39B372A0B04430003F278 /* MainEventView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		4922E8782A02024400836A6B /* RecommendMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendMenuView.swift; sourceTree = "<group>"; };
 		4983F60E2A089923002A7D15 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		4983F6122A089A15002A7D15 /* StatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusView.swift; sourceTree = "<group>"; };
+		49E39B352A0B022D0003F278 /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
+		49E39B372A0B04430003F278 /* MainEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainEventView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +81,21 @@
 			isa = PBXGroup;
 			children = (
 				4922E86A2A02002A00836A6B /* ContentView.swift */,
-				4922E8782A02024400836A6B /* RecommendMenuView.swift */,
-				4983F60E2A089923002A7D15 /* HomeView.swift */,
-				4983F6122A089A15002A7D15 /* StatusView.swift */,
+				49E39B342A0B017B0003F278 /* Home */,
 			);
 			path = Scene;
+			sourceTree = "<group>";
+		};
+		49E39B342A0B017B0003F278 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4983F60E2A089923002A7D15 /* HomeView.swift */,
+				4922E8782A02024400836A6B /* RecommendMenuView.swift */,
+				4983F6122A089A15002A7D15 /* StatusView.swift */,
+				49E39B352A0B022D0003F278 /* BannerView.swift */,
+				49E39B372A0B04430003F278 /* MainEventView.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,7 +170,9 @@
 			files = (
 				4922E8792A02024400836A6B /* RecommendMenuView.swift in Sources */,
 				4983F60F2A089923002A7D15 /* HomeView.swift in Sources */,
+				49E39B362A0B022D0003F278 /* BannerView.swift in Sources */,
 				4922E86B2A02002A00836A6B /* ContentView.swift in Sources */,
+				49E39B382A0B04430003F278 /* MainEventView.swift in Sources */,
 				4922E8692A02002A00836A6B /* StarBucksSwiftUIApp.swift in Sources */,
 				4983F6132A089A15002A7D15 /* StatusView.swift in Sources */,
 			);
