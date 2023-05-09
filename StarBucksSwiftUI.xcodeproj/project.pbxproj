@@ -58,12 +58,9 @@
 			isa = PBXGroup;
 			children = (
 				4922E8682A02002A00836A6B /* StarBucksSwiftUIApp.swift */,
-				4922E86A2A02002A00836A6B /* ContentView.swift */,
-				4922E8782A02024400836A6B /* RecommendMenuView.swift */,
+				49E39B332A0AFF620003F278 /* Scene */,
 				4922E86C2A02002C00836A6B /* Assets.xcassets */,
 				4922E86E2A02002C00836A6B /* Preview Content */,
-				4983F60E2A089923002A7D15 /* HomeView.swift */,
-				4983F6122A089A15002A7D15 /* StatusView.swift */,
 			);
 			path = StarBucksSwiftUI;
 			sourceTree = "<group>";
@@ -74,6 +71,17 @@
 				4922E86F2A02002C00836A6B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		49E39B332A0AFF620003F278 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				4922E86A2A02002A00836A6B /* ContentView.swift */,
+				4922E8782A02024400836A6B /* RecommendMenuView.swift */,
+				4983F60E2A089923002A7D15 /* HomeView.swift */,
+				4983F6122A089A15002A7D15 /* StatusView.swift */,
+			);
+			path = Scene;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
