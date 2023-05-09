@@ -40,8 +40,38 @@ struct StatusView: View {
     }
 }
 
+struct StatusBarView: View {
+    var body: some View {
+        HStack {
+            VStack(alignment: .leading) {
+                Text("4 ✭ util next Reward")
+                    .foregroundColor(Color.yellow)
+                ProgressView(value: 0.5)
+                    .tint(.yellow)
+                    .scaleEffect(x: 1.0, y: 2.0)
+                    .frame(width: 250, height: 10)
+            }
+            HStack {
+                Text("8")
+                    .font(.largeTitle)
+                    .bold()
+                Text("/")
+                Text("12✭")
+                    .font(.title2)
+                    .foregroundColor(Color.yellow)
+                    .bold()
+            }
+            .padding(.leading, 32)
+        }
+    }
+}
+
+
 struct StatusView_Previews: PreviewProvider {
     static var previews: some View {
-        StatusView()
+        VStack {
+            StatusView()
+            StatusBarView()
+        }
     }
 }

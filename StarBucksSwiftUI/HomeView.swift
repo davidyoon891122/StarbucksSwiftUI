@@ -10,7 +10,10 @@ import SwiftUI
 struct HomeView: View {
     var body: some View {
         VStack {
-            StatusView()
+            VStack {
+                StatusView()
+                StatusBarView()
+            }
             RecommendMenuView()
         }
     }
