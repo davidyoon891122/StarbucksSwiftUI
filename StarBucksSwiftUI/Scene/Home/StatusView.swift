@@ -92,7 +92,8 @@ struct StatusBarView: View {
                 })
                 .padding(.trailing)
             }
-            .padding(.all)
+            .padding(.vertical, 4)
+            .padding(.horizontal)
         }
     }
 }
