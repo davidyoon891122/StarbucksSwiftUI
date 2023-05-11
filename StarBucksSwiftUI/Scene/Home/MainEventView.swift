@@ -12,8 +12,7 @@ struct MainEventView: View {
         ZStack(alignment: .top) {
             Image("summerImage")
                 .resizable()
-//                .scaledToFit()
-                .aspectRatio(4.5/5, contentMode: .fit)
+//                .aspectRatio(4.5/5, contentMode: .fit)
                 .frame(height: 450)
             VStack {
                 Text("스타벅스와 함께하는")
@@ -30,6 +29,7 @@ struct MainEventView: View {
                 $0[.top] - 50
             })
         }
+        .padding(.horizontal)
     }
 }
 

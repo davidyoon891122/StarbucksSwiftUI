@@ -50,7 +50,7 @@ struct StatusBarView: View {
                     ProgressView(value: 0.5)
                         .tint(.yellow)
                         .scaleEffect(x: 1.0, y: 2.0)
-                        .frame(width: 250, height: 10)
+                        .frame(width: 230, height: 10)
                 }
                 HStack {
                     Text("8")
@@ -73,7 +73,6 @@ struct StatusBarView: View {
                         .bold()
                 })
                 .tint(.black)
-                .padding(.leading)
                 Button(action: {
                     print("Coupon")
                 }, label: {
@@ -90,11 +89,10 @@ struct StatusBarView: View {
                     Image(systemName: "bell")
                         .tint(.black)
                 })
-                .padding(.trailing)
             }
             .padding(.vertical, 4)
-            .padding(.horizontal)
         }
+        .padding(.horizontal)
     }
 }
 
