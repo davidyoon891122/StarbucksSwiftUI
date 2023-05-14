@@ -21,6 +21,7 @@ struct HomeView: View {
                 MainEventView()
                 EventBanner(imageName: "event_banner")
                 EventBanner(imageName: "event_banner2")
+                NewsListView()
             }
         }
     }
