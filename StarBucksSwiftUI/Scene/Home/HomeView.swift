@@ -31,6 +31,7 @@ struct HomeView: View {
                         .padding(.vertical)
                     EventBanner(imageName: "event_banner4")
                 }
+                Spacer()
             }
         }
         .edgesIgnoringSafeArea(.top)
