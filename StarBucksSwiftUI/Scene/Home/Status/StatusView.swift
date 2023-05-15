@@ -76,6 +76,12 @@ struct StatusBarView: View {
                     print("Coupon")
                 }, label: {
                     Image(systemName: "gift")
+                        .overlay {
+                            Circle()
+                                .frame(width: 7)
+                                .offset(x:4, y: -6)
+                                .foregroundColor(.green)
+                        }
                     Text("Coupon")
                         .bold()
                 })
@@ -88,6 +94,12 @@ struct StatusBarView: View {
                     Image(systemName: "bell")
                         .tint(.black)
                 })
+                .overlay {
+                    Circle()
+                        .frame(width: 7)
+                        .offset(x:4, y: -6)
+                        .foregroundColor(.green)
+                }
             }
             .padding(.vertical, 4)
         }
