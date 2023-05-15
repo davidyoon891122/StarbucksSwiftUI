@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		491B27312A1191EF003F3D84 /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491B27302A1191EF003F3D84 /* NewsView.swift */; };
+		491B27332A11D560003F3D84 /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491B27322A11D560003F3D84 /* MenuModel.swift */; };
+		491B27362A11D5EC003F3D84 /* MenuStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491B27352A11D5EC003F3D84 /* MenuStore.swift */; };
 		4922E8692A02002A00836A6B /* StarBucksSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4922E8682A02002A00836A6B /* StarBucksSwiftUIApp.swift */; };
 		4922E86B2A02002A00836A6B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4922E86A2A02002A00836A6B /* ContentView.swift */; };
 		4922E86D2A02002C00836A6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4922E86C2A02002C00836A6B /* Assets.xcassets */; };
@@ -23,6 +25,8 @@
 
 /* Begin PBXFileReference section */
 		491B27302A1191EF003F3D84 /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
+		491B27322A11D560003F3D84 /* MenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuModel.swift; sourceTree = "<group>"; };
+		491B27352A11D5EC003F3D84 /* MenuStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuStore.swift; sourceTree = "<group>"; };
 		4922E8652A02002A00836A6B /* StarBucksSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarBucksSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4922E8682A02002A00836A6B /* StarBucksSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarBucksSwiftUIApp.swift; sourceTree = "<group>"; };
 		4922E86A2A02002A00836A6B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +101,15 @@
 			path = News;
 			sourceTree = "<group>";
 		};
+		491B27342A11D5E3003F3D84 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				491B27322A11D560003F3D84 /* MenuModel.swift */,
+				491B27352A11D5EC003F3D84 /* MenuStore.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		4922E85C2A02002A00836A6B = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +133,7 @@
 				49E39B332A0AFF620003F278 /* Scene */,
 				4922E86C2A02002C00836A6B /* Assets.xcassets */,
 				4922E86E2A02002C00836A6B /* Preview Content */,
+				491B27342A11D5E3003F3D84 /* Model */,
 			);
 			path = StarBucksSwiftUI;
 			sourceTree = "<group>";
@@ -229,9 +243,11 @@
 				4983F60F2A089923002A7D15 /* HomeView.swift in Sources */,
 				49E39B362A0B022D0003F278 /* BannerView.swift in Sources */,
 				491B27312A1191EF003F3D84 /* NewsView.swift in Sources */,
+				491B27362A11D5EC003F3D84 /* MenuStore.swift in Sources */,
 				499D0A212A0C91A5009972D3 /* NewsListView.swift in Sources */,
 				4922E86B2A02002A00836A6B /* ContentView.swift in Sources */,
 				499D0A1F2A0C8E96009972D3 /* EventBanner.swift in Sources */,
+				491B27332A11D560003F3D84 /* MenuModel.swift in Sources */,
 				49E39B382A0B04430003F278 /* MainEventView.swift in Sources */,
 				4922E8692A02002A00836A6B /* StarBucksSwiftUIApp.swift in Sources */,
 				4983F6132A089A15002A7D15 /* StatusView.swift in Sources */,

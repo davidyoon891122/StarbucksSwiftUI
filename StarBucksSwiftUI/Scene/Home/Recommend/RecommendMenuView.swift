@@ -8,23 +8,25 @@
 import SwiftUI
 
 struct RecommendMenuView: View {
+    @ObservedObject var menuStore: MenuStore
+    @State var title: String
     var body: some View {
         VStack(alignment: .leading) {
-            Text("고객님을 위한 추천 메뉴")
+            Text(title)
                 .font(.title3)
                 .fontWeight(.heavy)
                 .bold()
                 .padding(16)
             ScrollView(.horizontal) {
                 LazyHStack {
-                    ForEach(1..<11) { _ in
+                    ForEach(menuStore.menuData) { menu in
                         VStack {
-                            Image("Latte")
+                            Image(menu.imageName)
                                 .resizable()
                                 .frame(width: 110, height: 110)
                                 .clipShape(Circle())
                                 .overlay(Circle().stroke())
-                            Text("아이스 카페 라떼")
+                            Text(menu.name)
                                 .font(.footnote)
                                 .bold()
                         }
@@ -42,6 +44,6 @@ struct RecommendMenuView: View {
 
 struct RecommendMenuView_Previews: PreviewProvider {
     static var previews: some View {
-        RecommendMenuView()
+        RecommendMenuView(menuStore: MenuStore(menuType: .coffee), title: "고객님을 위한 추천 메뉴")
     }
 }

@@ -18,15 +18,17 @@ struct NewsView: View {
                 .font(.title3)
                 .bold()
                 .lineLimit(1)
+                .padding(.vertical, 1)
             Text("SSG렌더스필드1F점에서만 만나볼 수 있는 상품을 소개합니다.")
+                .font(.callout)
         }
-        .frame(width: 250, height: 250)
+        .frame(width: 250)
     }
 }
 
 struct NewsView_Previews: PreviewProvider {
     static var previews: some View {
         NewsView()
-            .frame(width: 250, height: 250)
+            .frame(width: 250, height: 270)
     }
 }

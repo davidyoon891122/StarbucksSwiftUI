@@ -29,11 +29,11 @@ struct NewsListView: View {
                         NewsView()
                     }
                 }
-                .padding(.horizontal)
-                .frame(height: 250)
+                .padding(.horizontal, 32)
+                
             }
         }
-        .padding(.vertical)
+        .padding(.vertical, 32)
     }
 }
 
