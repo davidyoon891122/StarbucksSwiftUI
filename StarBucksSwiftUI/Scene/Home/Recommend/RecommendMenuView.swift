@@ -36,14 +36,13 @@ struct RecommendMenuView: View {
                 .padding(16)
             }
             .scrollIndicators(.hidden)
-            Spacer()
         }
-        .frame(height: 220)
     }
 }
 
 struct RecommendMenuView_Previews: PreviewProvider {
     static var previews: some View {
         RecommendMenuView(menuStore: MenuStore(menuType: .coffee), title: "고객님을 위한 추천 메뉴")
+            .frame(height: 200)
     }
 }

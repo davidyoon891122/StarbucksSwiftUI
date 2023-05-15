@@ -16,7 +16,7 @@ struct StatusView: View {
                     .bold()
                     .font(.title2)
                     .padding(.leading, 32)
-                    .padding(.top, 60)
+                    .padding(.top, 60 + 56)
                 HStack {
                     Spacer()
                     Button(action: {
@@ -36,7 +36,6 @@ struct StatusView: View {
                 }
             }
         }
-        .frame(height: 200)
     }
 }
 
@@ -103,5 +102,6 @@ struct StatusView_Previews: PreviewProvider {
             StatusView()
             StatusBarView()
         }
+        .frame(height: 400)
     }
 }
