@@ -15,6 +15,7 @@
 		4922E86D2A02002C00836A6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4922E86C2A02002C00836A6B /* Assets.xcassets */; };
 		4922E8702A02002C00836A6B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4922E86F2A02002C00836A6B /* Preview Assets.xcassets */; };
 		4922E8792A02024400836A6B /* RecommendMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4922E8782A02024400836A6B /* RecommendMenuView.swift */; };
+		49770A462A15885400CEFDA9 /* PayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49770A452A15885400CEFDA9 /* PayView.swift */; };
 		4983F60F2A089923002A7D15 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4983F60E2A089923002A7D15 /* HomeView.swift */; };
 		4983F6132A089A15002A7D15 /* StatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4983F6122A089A15002A7D15 /* StatusView.swift */; };
 		499D0A1F2A0C8E96009972D3 /* EventBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499D0A1E2A0C8E96009972D3 /* EventBanner.swift */; };
@@ -33,6 +34,7 @@
 		4922E86C2A02002C00836A6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4922E86F2A02002C00836A6B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4922E8782A02024400836A6B /* RecommendMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendMenuView.swift; sourceTree = "<group>"; };
+		49770A452A15885400CEFDA9 /* PayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayView.swift; sourceTree = "<group>"; };
 		4983F60E2A089923002A7D15 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		4983F6122A089A15002A7D15 /* StatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusView.swift; sourceTree = "<group>"; };
 		499D0A1E2A0C8E96009972D3 /* EventBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventBanner.swift; sourceTree = "<group>"; };
@@ -146,11 +148,20 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		49770A472A1588BB00CEFDA9 /* Pay */ = {
+			isa = PBXGroup;
+			children = (
+				49770A452A15885400CEFDA9 /* PayView.swift */,
+			);
+			path = Pay;
+			sourceTree = "<group>";
+		};
 		49E39B332A0AFF620003F278 /* Scene */ = {
 			isa = PBXGroup;
 			children = (
 				4922E86A2A02002A00836A6B /* ContentView.swift */,
 				49E39B342A0B017B0003F278 /* Home */,
+				49770A472A1588BB00CEFDA9 /* Pay */,
 			);
 			path = Scene;
 			sourceTree = "<group>";
@@ -243,6 +254,7 @@
 				4983F60F2A089923002A7D15 /* HomeView.swift in Sources */,
 				49E39B362A0B022D0003F278 /* BannerView.swift in Sources */,
 				491B27312A1191EF003F3D84 /* NewsView.swift in Sources */,
+				49770A462A15885400CEFDA9 /* PayView.swift in Sources */,
 				491B27362A11D5EC003F3D84 /* MenuStore.swift in Sources */,
 				499D0A212A0C91A5009972D3 /* NewsListView.swift in Sources */,
 				4922E86B2A02002A00836A6B /* ContentView.swift in Sources */,

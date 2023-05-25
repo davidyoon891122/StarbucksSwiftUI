@@ -15,7 +15,7 @@ struct ContentView: View {
                     Image(systemName: "house")
                     Text("Home")
                 }
-            Text("Pay")
+            PayView()
                 .tabItem {
                     Image(systemName: "creditcard")
                     Text("Pay")
