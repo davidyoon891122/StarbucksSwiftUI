@@ -12,14 +12,19 @@ struct PayView: View {
     var body: some View {
         NavigationStack {
             VStack {
-                ScrollView(.horizontal) {
-                    HStack {
-                        ForEach(1..<10) { _ in
-                            PayCardView()
+                GeometryReader { proxy in
+                    ScrollView(.horizontal) {
+                        HStack {
+                            ForEach(1..<10) { _ in
+                                PayCardView()
+                            }
                         }
                     }
+                    .navigationTitle("Pay")
                 }
-                .navigationTitle("Pay")
+                .onAppear {
+                    UIScrollView.appearance().isPagingEnabled = true
+                }
             }
             Spacer()
         }
