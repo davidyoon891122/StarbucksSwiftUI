@@ -25,8 +25,9 @@ struct PayView: View {
                 .onAppear {
                     UIScrollView.appearance().isPagingEnabled = true
                 }
+                BottomButtonView()
+                Spacer()
             }
-            Spacer()
         }
         .padding(.horizontal)
     }
@@ -115,6 +116,30 @@ struct PayCardView: View {
             }
         }
         .border(.bar)
+    }
+}
+
+struct BottomButtonView: View {
+    var body: some View {
+        HStack {
+            Spacer()
+            Button(action: {
+                print("Coupon")
+            }, label: {
+                Text("Coupon")
+            })
+            Spacer()
+            Divider()
+                .frame(height: 20)
+            Spacer()
+            Button(action: {
+                print("e-Gift Item")
+            }, label: {
+                Text("e-Gift Item")
+            })
+            Spacer()
+        }
+        .frame(height: 50)
     }
 }
 
